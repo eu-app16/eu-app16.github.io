@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="sl-root decks live live-server mz-applicationcache mz-history mz-localstorage mz-svg mz-opacity mz-rgba mz-backgroundsize mz-cssanimations mz-csstransforms mz-csstransforms3d mz-csstransitions mz-flexbox mz-flexboxlegacy mz-fullscreen loaded ua-linux ua-chrome has-visible-scrollbars wf-montserrat-n4-active wf-active fonts-are-ready reveal-is-ready presentation-started"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="./inf_ Slides_files/4fd2e9786b"></script><script src="./inf_ Slides_files/nr-918.min.js"></script><script async="" src="./inf_ Slides_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4fd2e9786b","applicationID":"1563900","transactionName":"cApZREQKWl9XFxZQVlAORB9aDEBW","queueTime":0,"applicationTime":26,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+		<title>inf: Slides</title>
+		<meta name="description" content="Slides">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link href="./inf_ Slides_files/css" rel="stylesheet" type="text/css" data-application-font="opensans">
+		<link href="./inf_ Slides_files/slides-1df814f963530a8557bab503c81c1049.css" media="all" rel="stylesheet">
+		<link href="./inf_ Slides_files/application-e4da236b13358d15adc826ece51d0324.css" media="all" rel="stylesheet">
+		<link href="./inf_ Slides_files/deck-v2-4b13d0f284961483bc19c312506208d5.css" media="all" rel="stylesheet">
+
+
+
+<style id="user-css-output" type="text/css"></style>
+		<meta content="authenticity_token" name="csrf-param">
+<meta content="g0gS6R1KqIMTlsqL8eSNl/zN3yx1hX7moD7DgtNNLqw=" name="csrf-token">
+		<script type="text/javascript">
+  if( !/dnt=1/.test( window.location.search ) ) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39670045-1', { 'userId': '441867' });
+    ga('send', 'pageview');
+
+  }
+</script>
+		<!--[if lt IE 9]>
+    <script src="//assets.slid.es/assets/html5shiv-b51d49ab0e89834a02ffce4a59905afb.js"></script>
+<![endif]-->
+	<style type="text/css"></style><link rel="stylesheet" href="./inf_ Slides_files/montserrat.css"><style>#hvzoom_img_container_main {<br> text-align: center;<br> background-color: rgba(0,0,0,0.75);<br> box-shadow: 0 0 15px rgba(0,0,0,0.5);<br>}<br><br>#hvzoom_img_container_caption {<br> width: 100%; left: 0;<br> bottom: 0;<br> padding: 3px;<br> background-color: rgba(0, 0, 0, 0.75);<br> color: #fff;<br> box-sizing: border-box;<br> word-wrap: break-word;<br>}<br><br>#hvzoom_img_album_index {<br> top: 0px; left: 0px;<br> padding: 2px;<br> background-color: rgba(0, 0, 0, 0.75);<br> color: #fff;<br> box-sizing: border-box;<br>}<br><br>#hvzoom_img_container_image {<br> height: 100%; top: 0;<br> width: 100%; left: 0;<br>}<br><br>#hvzoom_img_container_video {<br> height: 100%; top: 0;<br> width: 100%; left: 0;<br>}</style><style></style></head>
+	<body>
+		<div class="page-loader frozen">
+			<div class="page-loader-inner">
+				<div class="page-loader-spinner"></div>
+				<p class="page-loader-message">Loading deck</p>
+			</div>
+		</div>
+
+		<div class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+			<div class="reveal slide has-dark-background" role="application" data-transition-speed="default" data-background-transition="none">
+				<div class="slides" style="width: 960px; height: 700px; zoom: 1.2825;">
+					<section class="has-dark-background present" data-background-color="rgb(24,58,59)" data-background-size="cover" data-background-image="images/iStock_000016203246_Medium-2.jpg" data-id="5d4ec975b8795a9557f91ba9b7c615ab" style="display: block;"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 183px;" data-block-id="72d6032113b40521f214a77c6b02051d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>
+<strong>Informatyka</strong><br>
+&nbsp;</h1>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 167px; top: 280px;" data-block-id="015a6dd19a7541ac10ea8a86851f47a3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<h3>czyli nauka o przetwarzaniu informacji</h3>
+</div></div></section><section class="has-dark-background future" data-background-color="rgb(24,58,59)" data-background-image="images/iStock_000016203246_Medium-2.jpg" data-background-size="cover" style="display: block;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 171px; top: 178px;" data-block-id="cf4471699acb92d2850941c0db9403dc">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1><strong>Informatyka?</strong></h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 171px; top: 280px;" data-block-id="39946b537a42f4dcb75b960dc37a54d7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);" dir="ui">
+<p><strong>Czym jest? Czym nie jest?&nbsp;</strong></p>
+
+<p><strong>Dość spora grupa osób myśli, że informatyka jest nauką zajmującą się 'komputerami'. Jest to jednak definicja <strong>błędna.</strong></strong></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 171px; top: 451px;" data-block-id="f1665f8821a5348ae23525b06b45adda"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 153, 0);">
+<p><strong>Informatyka zajmuje się zupełnie czym innym!</strong></p>
+
+<p>&nbsp;</p>
+</div></div></section><section data-background-image="images/iStock_000016203246_Medium-2.jpg" class="future" style="display: block;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 162px;" data-block-id="f7addfcdbf5d7b8c2425d09e610169c6">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+        <h1>Czyli czym?</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 231px;" data-block-id="23de06404b11c59b78b926f3cba866bc">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<p><strong>Przetwarzaniem informacji wszelkiego rodzaju. Najczęściej sprowadza się to do <strong>logicznego rozumowania</strong>, formułowania zapytań, poleceń i <strong>rozwiązywania problemów.</strong></strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+</div></section><section data-background-image="images/iStock_000016203246_Medium-2.jpg" class="future" style="display: none;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 86px;" data-block-id="d1f8e2485904b57a4db6c6fda2c953ef">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+        <h1>Skąd zatem te komputery?</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 295px;" data-block-id="1e9d9f3b5071d61a817dc3e457cf38f8">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+        <p>
+            <strong>Komputery, jako maszyny, są w sporej części zadań o <b style="color: red;">wiele</b> bardziej efektywne od nas, ludzi, zwłaszcza w przetwarzaniu informacji w konkretny sposób. Dlatego też komputery stały się sybolami informatyki. Wcześniej jednak informatyka była jedynie jedną z gałęzi <b style="color: red;">matematyki</b> - gdy komputerów jeszcze nie było.</strong>
+        </p>
+    </div>
+</div></section><section data-background-image="images/iStock_000016203246_Medium-2.jpg" class="future" style="display: none;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 50px;" data-block-id="b7c7f5111e29adb979fd991f2fab15fb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>Praktyka</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 150px;" data-block-id="9030c6ce7a039f1724d6135b49df9d44">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<p>Teraz, kiedy wiemu już czym informatyka jest, przejdźmy do ciekawszych rzeczy. Praktyki - bo jak w niej wygląda owa informatyka?<br>
+<br>
+Dość ciekawie.</p>
+
+<p>Przynajmniej częściowo. Tak jak wszędzie, są tu nudne i monotonne fragmenty jak klepanie formatek w Officie, ale jest to raczej mniejsza cześć informatyki. Co zatem jest ciekawe w tej informatyce?</p>
+</div>
+</div></section><section class="stack future" style="display: none;" data-previous-indexv="0" hidden="" aria-hidden="true"><section data-background-image="images/code-1084923.png" style="display: none;" class="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="33edbcfca6ec2a5ecd511c7ddf692f4b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(103, 78, 167);">
+<h1>Programowanie</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 108px; height: auto;" data-block-id="48f10454501a13436a0b434e3f893f08"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(255, 153, 0); font-size: 86%;">
+<p><strong>To, moim zdaniem, jedna z najciekawszych gałęzi informatyki. Za jego pomocą można tworzyć niesamowite rzeczy. Kiedyś była to rzecz trudna z racji niskiej abstrakcyjności języków i ich zbliżenia do natywnego języka komputerów - binarnego. W tamtych czasach by cokolwiek zaprogramować trzeba było się nieźle napocić. Teraz jednak języki programowania wchodzą na coraz to wyższe poziomy abstrakcji powodując, że kod w nich pisany staje się zbliżony do języka ludzkiego a dopiero następnie tłumaczony na coś zrozumianego przez maszynę, tym samym znacząco obniżając próg wejścia w tę dziedzinę i sprawiając, że teraz nawet zwykły laik może stworzyć coś pięknego. Ogranicza tylko wyobraźnia.<br>
+&nbsp;Niżej ( strzałka w dół ) trochę więcej.</strong></p>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="52af39d95d900bf6a0bd9c08e611f3d7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(103, 78, 167);">
+<h1>Podział</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 108px; height: auto;" data-block-id="b1f9eeea7ff9f1d3c6e3e3dfc09cfadf"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(255, 153, 0); font-size: 86%;">
+<p><strong>Programowanie dzielić można różnie - czy to ze względu na abstrakcyjność, gdzie mamy języki:</strong></p>
+
+<p><strong>niskopoziomowe - bardziej zbliżone do maszyny, niski poziom abstrakcji, zazwyczaj szybsze i mniejsze;</strong></p>
+
+<p><strong>wysokopoziomowe - wyższy poziom abstrakcji, bardziej zbliżone do człowieka i jego języka, zazwyczaj troszkę wolniejsze i większe rozmiarowo;</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Czy też ze względu na paradygmaty programowania, które oferują, gdzie mamy języki np:</strong></p>
+
+<p><strong>obiektowe;</strong></p>
+
+<p><strong>funkcyjne;</strong></p>
+
+<p><strong>proceduralne;</strong></p>
+
+<p><strong>itd.&nbsp;<br>
+Podziały są różne i jest ich wiele, lecz te są raczej główne.</strong><br>
+<strong>&nbsp;</strong></p>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="7b8824a057e452a0bb55a381227be4cc"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="728c286605652bfd5a2ed93596c95bbf"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 282px;" data-block-id="c7107df71d137c196e6cc8b80aca0e99"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">Python</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 381px;" data-block-id="e97fca5bc42e22732358f32be39b78bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Dość prosty i przyjemny język z ogromnymi możliwościami, często zalecany początkującym. Osobiście jestem fanem.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 489px; height: 66px; left: 236px; top: 605px;" data-block-id="4489ed5e433372393f05bbfcba40c0d1"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs stylus"><span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(<span class="hljs-string">"Informatyka i programowanie są super!"</span>)</span></span></code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 546px;" data-block-id="1f6edb370d544ef1038e7413f92ad03f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="68f94b0b7a20ff172ba7952eca507426"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="f6e5783f618ee1e37541a75f58e1d55c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 282px;" data-block-id="80a368556cb6ca102e8f2b9ff14ba72b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">Java</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 381px;" data-block-id="92f3a7c80ae0006050f065a7915e54b0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Raczej trudniejsza od Pythona, lekko bardziej zawiła i rozlazła. Najpopularniejszy język używany w aplikacjach biznesowych, czystoobiektowa.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 104px; left: 240px; top: 596px;" data-block-id="b77867e0a4b9268f063b857157b1bc6a"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs cs"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Hello</span>{
+  <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span>(<span class="hljs-params">String[] args</span>)</span>{
+    System.<span class="hljs-keyword">out</span>.print(<span class="hljs-string">"Hello World"</span>);
+  }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 546px;" data-block-id="9d1db541b161788d2185a18b70d384d1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="9e61cbae61e3ea94c074764251edc0ee"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="3983d348c1fbfacf3c5afcff51432275"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 243px;" data-block-id="44b05ced030bae0df2b255b537cb9e0d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">C#</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 308px;" data-block-id="9fd9dcc694801a39563f5065b9b8168e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Coś jakby microsoftowa Java. Lekko podobne do siebie języki, kwestia jednak tego, że jeden używany głównie przez Google, Oracle drugi zaś przez Microsoft.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 167px; left: 240px; top: 524px;" data-block-id="b89f97da4fbd002b92cb425e0a5c8d5b"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Hello1</span>
+</span>{
+   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span><span class="hljs-params">()</span>
+   </span>{
+      System.Console.WriteLine(<span class="hljs-string">"Hello, World!"</span>);
+   }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 474px;" data-block-id="512105b9ea07fececba94d5e3f68f015"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="d807283f1ad7a545f658881af784afc7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="e562502e79f627d51bd61d78940315dc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 243px;" data-block-id="59502ce3387a146b147e60839a02ef0b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">Go</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 308px;" data-block-id="9a5fd4d021db87f2b4eb1b6e0bc98fa0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Dziecko Googla stworzone głównie na potrzeby pisania aplikacji server side - backend i te sprawy.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 167px; left: 240px; top: 524px;" data-block-id="cd01e1ba9a5216a9dd24973848cf10ff"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs swift">package main
+<span class="hljs-keyword">import</span> "fmt"
+<span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span> {
+    fmt.<span class="hljs-type">Println</span>(<span class="hljs-string">"hello world"</span>)
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 474px;" data-block-id="031b82eda95b6fc908f79cd3540d64c6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="e1b0432dd8bae51890f726cd05980395"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="fe45af028fd682406c5105981b9822c1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 243px;" data-block-id="6d316a5df6e2da13bf81ff3ad1465bf2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">Haskell</h2>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 308px;" data-block-id="0d537f8af3014eecb04ad41e2641e3f1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Język funkcyjny. Dość szybki i sprawny. Niezbyt popularny ze względu na paradygmat i inne podejście do programowania.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 167px; left: 240px; top: 524px;" data-block-id="ba27c493ff63cb58ac6ae2c40696171f"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs ini"><span class="hljs-attr">main</span> = putStrLn <span class="hljs-string">"Hello, World!"</span></code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 474px;" data-block-id="3c442adc0a2dff7fe29896231e36f84d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="fe6b60697ec4d0ecdd0f6a84f681a2c7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="73dd2112e8dc81c9d36ac61f08f231f8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 243px;" data-block-id="82fa06e748cfeb760da2d57985dd9bb0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">Scala</h2>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 308px;" data-block-id="82bf7b83a55c2c4609eb198b52d141b1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Taka jakby funkcyjna Java działająca na JVM'ie. Coraz bardziej popularny język. Łączy zalety obiektowości z funkcyjnością.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 167px; left: 240px; top: 524px;" data-block-id="d20dd991cfbe7d6b9d47936c78730c18"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs python">object HelloWorld {
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">main</span><span class="hljs-params">(args: Array[String])</span>:</span> Unit = {
+    println(<span class="hljs-string">"Hello, world!"</span>)
+  }
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 474px;" data-block-id="e6f538642a6ccee3bf76cfb71d2ca07d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section><section data-background-image="images/code-1084923.png" class="future" aria-hidden="true" style="display: none;" hidden=""><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11px; height: auto;" data-block-id="75ae70cecc2b0ef17089142c270dcbec"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11; color: rgb(103, 78, 167);">
+<h1>Wybrane języki programowania</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 205px; height: auto;" data-block-id="f2aa3a87d7ee582550342a32190b7859"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; color: rgb(255, 153, 0); font-size: 86%;" dir="ui">
+<p><strong>Przedstawię kilka różnorodnych języków programowania.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>​<strong>&nbsp;</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 243px;" data-block-id="caacc0ce89a8d89c597aa526b8bdbb19"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h2 style="color:rgb(103, 78, 167)">C</h2>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 308px;" data-block-id="1b932c15df890a1bddac4fc4726be6b6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; color: rgb(255, 153, 0);">
+<p>Staruszek - jeden z 'pierwszych' języków, wzór dość sporej części języków. Niskopoziomowy i trudny.</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 489px; height: 167px; left: 240px; top: 524px;" data-block-id="96564411983aa4f844d9ef32344d8b14"><div class="sl-block-content" style="z-index: 15;"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+
+main()
+{
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"Hello World"</span>);
+
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 174px;" data-block-id="73e21933ae646d511bb337b3a8f5c09b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<h3 style="color:rgb(103, 78, 167)"><strong>Przykład prostego kodu:</strong></h3>
+</div></div></section></section><section data-background-image="images/140104.gif" class="future" style="display: none;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 162px;" data-block-id="da00e3d969702dcb567363c96de001b5">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>Grafika</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 295px;" data-block-id="a025070884125312c941ebb3ad25a6bc">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<p>Grafika komputerowa to coś niesamowitego, gdzie wielce utalentowani ludzie za pomocą myszki i/lub pióra są w stanie stworzyć obrazy jak gdyby wyjęte z rzeczywistości. Szeroko wykorzystywana w fotografii, sztuce kinowej, grach, designie, medycynie, architekturze&nbsp;itd.</p>
+</div>
+</div></section><section data-background-image="images/google-deepmind-artificial-intelligence.jpg" class="future" style="display: none;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; " data-block-id="50a97a6b5bd9bdf494b8612da864cc8c">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: red;">
+<h1>Sieci neuronowe/AI</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 200px;" data-block-id="76dd41cffa9f6922e9eea168b7667fbb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: #30CAFF;">
+<p><b>Czy możliwe jest odwzorowanie ludzkiego mózgu w komputerze? Czy możliwym jest, by maszyna była świadoma? Ta dziedzina próbuje się tego dowiedzieć tworząc przy tym niesamowite rzeczy, które codziennie w jakiś sposób potrafią ułatwiać nam życie. Kilka słów o sieciach neuronowych:
+</b><iframe width="420" height="215" src="https://www.youtube.com/embed/DG5-UyRBQD4" frameborder="0" allowfullscreen></iframe></p>
+
+<p>&nbsp;</p>
+</div>
+</div></section><section data-background-image="images/geovideo.gif" class="future" style="display: none;" hidden="" aria-hidden="true"><div class="sl-block" data-block-type="text" style="height: auto; width: 840px; left: 60px; top: 7px;" data-block-id="38e51b533837c941f2c1bf7778e68705">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>Bazy danych/Big Data</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 201px;" data-block-id="8741b95ebf0ed322371f58c163d76434">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<p>Żyjemy w czasach w których istnieją gigantyczne serwisy z których korzystają miliony użytkowników dostarczając ogromne ilości informacji do przetworzenia serwerom. A zachowaniem i udostępnieniem tych wszystkich danych&nbsp;zajmują się bazy danych, które w odpowiedni sposób muszą jakoś przetworzyć,&nbsp;zachować i odtworzyć&nbsp;wszystkie te informacje. Problemy, które trzeba tam rozwiązywać, są nierzadko ciekawe z racji skali i wydajności. <a href="http://www.sas.com/en_us/insights/big-data/what-is-big-data.html" alt="Czym jest Big Data"> <br/> Czym jest Big Data?</a></p>
+</div>
+</div></section><section data-background-image="images/iStock_000016203246_Medium-2.jpg" hidden="" aria-hidden="true" class="future" style="display: none;"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 162px;" data-block-id="14d2d9d128636c97b382f5140d68921e">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>Co jeszcze?</h1>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 657px; left: 152px; top: 259px;" data-block-id="bfc6d6ebccacdeec9230a55e07a33ace">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 153, 0);">
+<p><strong>Bardzo wiele. Gdybym jednak chciał napisać tu o wszystkim zwyczajnie nie starczyłoby mi czasu ani miejsca - był to jedynie wierzchołek góry lodowej, zachęcam jednak, by zgłębić i odkryć całą jej resztę, bo jest to świat bardzo wciągający i cudowny.</strong></p>
+</div>
+</div></section><section data-background-image="images/iStock_000016203246_Medium-2.jpg" hidden="" aria-hidden="true" class="future" style="display: none;"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 302px;" data-block-id="6a9d1b1c88bbedc026c0ba36dba7b6ff">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 153, 0);">
+<h1>Koniec</h1>
+</div>
+</div>
+</section>
+				</div>
+				<div class="dimmer"></div>
+r
+
+Informatyka
+&nbsp;
+
+&nbsp;
+
+
+czyli nauka o przetwarzaniu informacji
+</div></div>
+		</div>
+
+		
+<script>
+	var SLConfig = {"current_user":{"id":441867,"username":"olafgorski","name":"Olaf Górski","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-FPKiokRAwRo/AAAAAAAAAAI/AAAAAAAAABs/1I6VcaCxpVk/photo.jpg?sz=50","private_thumbnail_url":"https://lh6.googleusercontent.com/-FPKiokRAwRo/AAAAAAAAAAI/AAAAAAAAABs/1I6VcaCxpVk/photo.jpg?sz=50","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":281919,"present_controls":true,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"registered":true,"email":"grski1337@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false},"deck":{"id":655482,"slug":"deck-1","title":"inf","description":"","visibility":"all","published_at":"2016-04-05T14:51:32.116Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/b66faf8783fda5c2d33d2a44103f2b48/thumb.jpg","view_count":0,"user":{"id":441867,"username":"olafgorski","name":"Olaf Górski","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-FPKiokRAwRo/AAAAAAAAAAI/AAAAAAAAABs/1I6VcaCxpVk/photo.jpg?sz=50","private_thumbnail_url":"https://lh6.googleusercontent.com/-FPKiokRAwRo/AAAAAAAAAAI/AAAAAAAAABs/1I6VcaCxpVk/photo.jpg?sz=50","pro":false,"enterprise":false,"enterprise_manager":false,"settings":{"id":281919,"present_controls":true,"present_upsizing":true,"present_notes":true},"registered":true},"background_transition":"none","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"access_token":"sWuDNmPttpkpddN95piVnzbo2t8r","notes":{}}};
+</script>
+		<script defer="defer" src="./inf_ Slides_files/application-0f27b63496fb4ab507a767a87c0380ae.js"></script>
+		<script defer="defer" src="./inf_ Slides_files/reveal.min-348bb98f2dd43d96b0faa4fd665b881f.js"></script>
+		
+
+	
+
+<script type="text/javascript" src="./inf_ Slides_files/highlight-9efb98b823ef2e51598faabaa51da5be.js"></script><aside class="presentation-controls"><div class="presentation-controls-content" style="height: 824px;"><h2>Presentation Controls</h2><div class="presentation-controls-section"><h2>Speaker View</h2><p>The control panel for your presentation. Includes speaker notes, an upcoming slide preview and more. It can be used as a remote control when opened from a mobile device. <a href="http://help.slides.com/knowledgebase/articles/333923" target="_blank">Learn more.</a></p><a class="button l outline" href="http://slides.com/olafgorski/deck-1/speaker" target="_blank">Open speaker view</a></div><div class="presentation-controls-section"><h2>Present Live</h2><p class="live-description">Share this link with your audience to have them follow along with the presentation in real-time. <a href="http://help.slides.com/knowledgebase/articles/333924" target="_blank">Learn more.</a></p><div class="live-share"><input class="live-view-url input-field" type="text" value="http://slides.com/olafgorski/deck-1/live" readonly=""></div></div><div class="presentation-controls-section sl-form"><h2>Options</h2><div class="sl-checkbox outline fullscreen-toggle"><input id="fullscreen-checkbox" type="checkbox"><label for="fullscreen-checkbox">Fullscreen</label></div><div class="sl-checkbox outline controls-toggle" data-tooltip="Hide the presentation control arrows and progress bar." data-tooltip-alignment="r" data-tooltip-delay="500" data-tooltip-maxwidth="250"><input id="controls-checkbox" type="checkbox"><label for="controls-checkbox">Hide controls</label></div><div class="sl-checkbox outline notes-toggle" data-tooltip="Hide your speaker notes from the audience." data-tooltip-alignment="r" data-tooltip-delay="500" data-tooltip-maxwidth="250" style="display: none;"><input id="controls-checkbox" type="checkbox"><label for="controls-checkbox">Hide notes</label></div><div class="sl-checkbox outline upsizing-toggle" data-tooltip="Your content is automatically scaled up to fill as much of the browser window as possible. This option disables that scaling and favors the original authored at size." data-tooltip-alignment="r" data-tooltip-delay="500" data-tooltip-maxwidth="300"><input id="upsizing-checkbox" type="checkbox"><label for="upsizing-checkbox">Disable upsizing</label></div></div></div><footer class="presentation-controls-footer"><button class="button xl positive start-presentation">Start presentation</button></footer><div class="sl-scroll-shadow-top" style="height: 10px; opacity: 0; top: 0px;"></div><div class="sl-scroll-shadow-bottom" style="height: 10px; opacity: 0; bottom: 121px;"></div></aside></body><div id="hvzoom_img_container_main" style="opacity: 0;"><img id="hvzoom_img_container_image"><div id="hvzoom_img_close_icon" style="opacity: 0;">Close</div><div id="hvzoom_img_container_caption"></div><div id="hvzoom_img_album_index"></div><video id="hvzoom_img_container_video" autoplay="" loop=""><source id="hvzoom_vid_src" type="video/webm"></video></div><div></div><div></div></html>
