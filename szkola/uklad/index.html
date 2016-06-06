@@ -430,6 +430,7 @@
         #b { 
           background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
           position: absolute;
+	  width: 100%; height: 100%;
         }
         #Yaxis {
           padding: 0;
@@ -472,12 +473,14 @@
         .form {
           color: #fff;
           position: absolute;
-          margin: 10px;
+          margin: 2% 1%;
           padding: 10px;
           background-color: #26a69a;
-          max-width: 250px;
           box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-        }
+          width: 96%;
+	  height: 200px;
+	  clear: both;
+	}
 
         .units {
           margin: 10px 0;
@@ -491,42 +494,190 @@
 
         }
 
-        .submit {
-          margin-top: 5px;
-          float: right;
-          color: white;
-          background: none;
-          border: none;
-          border-bottom: 1px solid white;
-         }
+        .btn {
+	  text-decoration: none;
+	  color: #fff;
+	  background-color: #ee6e73;
+	  text-align: center;
+	  letter-spacing: .5px;
+	  transition: .2s ease-out;
+	  cursor: pointer;
+
+	  border: none;
+	  border-radius: 2px;
+	  display: inline-block;
+	  height: 36px;
+	  line-height: 36px;
+	  outline: 0;
+	  padding: 0 2rem;
+	}
+	.submit{
+	  width: 100%
+	}
+	#plot{
+	  max-width: 100%;
+	  max-height: 100%;
+	}
 
 
 
     </style>
     <title>Układ współrzędnych</title>
     <meta name="author" content"Olaf Górski">
-    <!-- don't lurk around the code dear mr. char(83) : ) -->
+    <!-- don't lurk around the code dear mr. char(83) -->
   </head>
   <body>
-    <div id="b" style="width: 100%; height: 100%;"></div>
+    <div id="b" style=""></div>
     <div id="Yaxis"><div class="triangleUp"></div></div>
     <div id="Xaxis"><div class="triangleRight"></div></div>
+    <canvas id="plot"></canvas>
     <div class="form">
         <form>
             <label>Ilość jednostek</label>
-            <input autocomplete="off" autofocus type="number" maxlength="4" class="units" id="number_of_units" value="25"/>
-            <button type="button" onclick="add_grid()" class="submit">Zmień</button>
+            <input autocomplete="off" type="number" maxlength="4" class="units" id="number_of_units" value="25"/>
+            <button type="button" onclick="add_grid()" class="btn submit">ZMIEŃ</button>
         </form>
+	<form><br>
+	  <label>Podstawowe wykresy</label>
+	  <br><br>
+	    <button type="button" onclick="x2()" class="btn">x<sup>2</sup></button>
+	    <button type="button" onclick="x3()" class="btn">x<sup>3</sup></button>
+	    <button type="button" onclick="abs()" class="btn">|x|</button>
+	    <button type="button" onclick="sgn()" class="btn">sgn(x)</button>
+	    <button type="button" onclick="floor()" class="btn">[x]</button>
+	    <button type="button" onclick="rest()" class="btn">x-[x]</button>
+	    <button type="button" onclick="over()" class="btn">1/x</button>
+	</form>
     </div>
   </body>
     <script>
-        function add_grid() {
-        var number_of_rows = document.getElementById("number_of_units").value;
-	    var unit_length = Math.floor(window.screen.availHeight/number_of_rows);
-	    document.getElementById("b").style.backgroundSize = unit_length+"px "+unit_length+"px";
+//my javascript sucks so badly, I have it
+      var c = document.getElementById("plot");
+      c.width = window.innerWidth*0.98;
+      c.height = window.innerHeight*0.98;
+      var ctx = c.getContext("2d");
+      ctx.lineWidth = "3";
+      ctx.strokeStyle = "red";
+      var number_of_rows = document.getElementById("number_of_units").value;
+      var unit_length = Math.floor(window.screen.availHeight/number_of_rows);
+      var Xaxis = Math.round(document.getElementById("Yaxis").style.marginLeft.slice(0,-2));
+      var Yaxis = Math.round(document.getElementById("Xaxis").style.marginTop.slice(0,-2));
+      function add_grid(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	number_of_rows = document.getElementById("number_of_units").value;
+	unit_length = Math.floor(window.screen.availHeight/number_of_rows);
+    	document.getElementById("b").style.backgroundSize = unit_length+"px "+unit_length+"px";
         document.getElementById("Yaxis").style.marginLeft = (unit_length*Math.floor(window.screen.availWidth/unit_length/2)-1.5)+"px";
         document.getElementById("Xaxis").style.marginTop = Math.floor(number_of_rows/2)*unit_length-1.5+"px";
-        }
-    add_grid();
+	Xaxis = parseFloat(document.getElementById("Yaxis").style.marginLeft.slice(0,-2))+2;
+	Yaxis = parseFloat(document.getElementById("Xaxis").style.marginTop.slice(0,-2))+2;
+      }
+
+      function x2(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	ctx.moveTo(Xaxis-c.width, Yaxis+(-c.width*c.width/unit_length));	
+	for(var i = -c.width/2; i < c.width/2; i++){
+	  ctx.lineTo(Xaxis+i, Yaxis+(-i*i/unit_length));
+	}
+	ctx.stroke();
+	ctx.closePath();
+
+      }
+      function x3(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	ctx.moveTo(Xaxis-c.width, Yaxis+(-c.width*c.width/unit_length*c.width/unit_length));	
+	for(var i = -c.width/2; i < c.width/2; i++){
+	  ctx.lineTo(Xaxis+i, Yaxis+(-i*i*i/unit_length/unit_length));
+	}
+	ctx.stroke();
+	ctx.closePath();
+
+      }
+      function abs(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	ctx.moveTo(Xaxis-c.width, Yaxis+(Math.abs(c.width/2)));	
+	for(var i = -c.width/2; i < c.width/2; i++){
+	  ctx.lineTo(Xaxis+i, Yaxis+(-Math.abs(i)));
+	}
+	ctx.stroke();
+	ctx.closePath();
+
+      }
+      function sgn(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	ctx.moveTo(Xaxis, Yaxis);
+	ctx.arc(Xaxis, Yaxis, 8, 0, 2 * Math.PI);
+	ctx.fill();
+	ctx.moveTo(Xaxis-(c.width/2), Yaxis+unit_length);	
+	ctx.lineTo(Xaxis, Yaxis+unit_length);
+	ctx.arc(Xaxis, Yaxis+unit_length, 8, 0, 2 * Math.PI);
+
+	ctx.moveTo(Xaxis, Yaxis-unit_length);
+	ctx.arc(Xaxis, Yaxis-unit_length, 8, 0, 2 * Math.PI);
+	ctx.lineTo(Xaxis+(c.width/2), Yaxis-unit_length);
+	ctx.stroke();
+	ctx.closePath();
+      }
+      function floor(){
+	ctx.strokeStyle="red";
+	ctx.lineWidth="4"
+	ctx.clearRect(0, 0, c.width, c.height);
+	var starting_x = Xaxis-number_of_rows*unit_length;
+	var starting_y = Yaxis+number_of_rows*unit_length;
+	for( var i = 0; i <= number_of_rows*2; i++ ){
+	ctx.beginPath();
+	ctx.moveTo(starting_x+i*unit_length, starting_y-i*unit_length);
+	ctx.arc(starting_x+i*unit_length, starting_y-i*unit_length, 8, 0, 2 * Math.PI);
+	ctx.fill();
+	ctx.lineTo(starting_x+(i+1)*unit_length, starting_y-i*unit_length);
+	ctx.arc(starting_x+(i+1)*unit_length, starting_y-i*unit_length, 8, 0, 2 * Math.PI);
+	ctx.stroke();
+	ctx.closePath();
+	}
+	ctx.strokeStyle="red";
+	ctx.lineWidth="3";
+      }
+      function rest(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	var starting_x = Xaxis-number_of_rows*unit_length;
+	for( var i = 0; i <= number_of_rows*2; i++ ){
+	ctx.beginPath()
+	ctx.moveTo(starting_x+i*unit_length, Yaxis);
+	ctx.arc(starting_x+i*unit_length, Yaxis, 8, 0, 2 * Math.PI);
+	ctx.fill();
+	ctx.moveTo(starting_x+i*unit_length, Yaxis);
+	ctx.lineTo(starting_x+(i+1)*unit_length, Yaxis-unit_length);
+	ctx.moveTo(starting_x+(i+1)*unit_length, Yaxis-unit_length);
+	ctx.arc(starting_x+(i+1)*unit_length, Yaxis-unit_length, 8, 0, 2 * Math.PI);
+	ctx.stroke();
+	ctx.closePath();
+	}
+      }
+      function over(){
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.beginPath();
+	var starting_x = Xaxis-(number_of_rows*unit_length);
+	ctx.moveTo(starting_x, Yaxis+(1/number_of_rows))
+	var x_offset = 0.0;
+	for(var i = -number_of_rows; i < 0; i+=0.06){
+	  x_offset += 0.06;
+	  ctx.lineTo(starting_x+(Math.floor(x_offset*unit_length-3)), Yaxis-((1/i)*unit_length));
+	  //ctx.lineTo(starting_x+x_offset, Yaxis+(1/i*100));
+	}
+	x_offset = 0.0
+	ctx.moveTo(Xaxis+(0.06*unit_length), Yaxis-((1/0.06)*unit_length));
+	for(var i = 0.0; i < number_of_rows; i+=0.05){
+		x_offset+=0.06;
+	  ctx.lineTo(Xaxis+(Math.floor(x_offset*unit_length-3)), Yaxis-((1/i)*unit_length));
+	}
+
+	ctx.stroke();
+	ctx.closePath();
+      }
+      add_grid();
     </script>
 </html>
