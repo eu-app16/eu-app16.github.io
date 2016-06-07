@@ -556,6 +556,7 @@
 	    <button type="button" onclick="trans();" class="btn">T<sub>u=[p,q]</sub></button>
 	    p=<input autocomplete="off" id="vector_p" value=0 class="units vector"/>
 	    q=<input autocomplete="off" id="vector_q" value=0 class="units vector"/>
+	    <button type="button" onclick="t00();" class="btn">T<sub>[0,0]</sub></button>
 	</form>
     </div>
   </body>
@@ -589,6 +590,10 @@
 	vector_q = document.getElementById("vector_q").value;
 	c.style.marginLeft = vector_p*unit_length+"px";
 	c.style.marginTop = -(vector_q*unit_length)+"px";
+      }
+      function t00(){
+        c.style.marginLeft = 0+"px";
+	c.style.marginTop = 0+"px";
       }
       function x2(){
 	ctx.clearRect(0, 0, c.width, c.height);
