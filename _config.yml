@@ -18,4 +18,3 @@ github_username: grski
 
 # Build settings
 markdown: kramdown
-exclude: ["szkola",]
