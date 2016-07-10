@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
-date:   2015-07-04 15:40:00 +0200
+date:   2016-07-04 15:40:00 +0200
 categories: news
 permalink: /hello-world/
 ---
