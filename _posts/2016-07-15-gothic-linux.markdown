@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Gothic 2 na Linuxie - Manjaro"
+title:  "Gothic 2 Noc Kruka na Linuxie (Manjaro)"
 date:   2016-07-16 23:41:00 +0200
 categories: linux
-permalink: /gothic2-na-linux/
+permalink: /gothic2-noc-kruka-na-linux/
 ---
 
 # Problem
