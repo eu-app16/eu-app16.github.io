@@ -14,7 +14,7 @@ i tyle. Zacznę jednak troszkę inaczej i oprócz tego dorzucę jeszcze garść 
 
 # Komentarze
 
-Na tym blogu ich nie będzie - jestem zwolennikiem minimalizmu ( co chyba zresztą widać np. po szablonie ), zatem moim skromnym zdaniem komentarze są zbędne. I tak ich pewnie zbyt dużo nie będzie, a jak będą, to większość to tylko spam, zatem nie widzę sensu w ich dodawaniu. Kontakt ze mną jest jednak mimo tego łatwy - podany jest w podstronie O mnie i w stopce strony.
+Na tym blogu ich nie będzie - jestem zwolennikiem minimalizmu ( co chyba zresztą widać np. po szablonie ), zatem moim skromnym zdaniem komentarze są zbędne. I tak ich pewnie zbyt dużo nie będzie, a jak będą, to większość to tylko spam, zatem nie widzę sensu w ich dodawaniu. Kontakt ze mną jest jednak mimo tego łatwy - podany jest w podstronie [O mnie][about] i w stopce strony.
 
 # Tematyka
 

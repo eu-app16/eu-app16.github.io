@@ -3,7 +3,7 @@ layout: post
 title:  "W czym pisać kod na początku?"
 date:   2016-07-10 23:41:00 +0200
 categories: tech
-permalink: /ide-czy-nieide/
+permalink: /w-czym-pisac/
 ---
 
 # Wstęp
