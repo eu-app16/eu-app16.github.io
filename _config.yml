@@ -18,3 +18,7 @@ github_username: grski
 
 # Build settings
 markdown: kramdown
+gems:
+    - jekyll-sitemap
+
+

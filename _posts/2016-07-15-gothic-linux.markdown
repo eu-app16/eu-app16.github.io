@@ -27,7 +27,7 @@ winetricks 20160622-1
 Instalacja tych programów jest raczej banalna, można to zrobić czy to przez graficzny menadżer, czy też klepiąc w konsoli (w przypadku manjaro z menadżerem pakietów pacman):
 
 {% highlight bash %}
-sudo pacmam -S wine winetricks
+sudo pacman -S wine winetricks
 {% endhighlight %}
 
 i gotowe. Co prawda na innych dystrybucjach sytuacja może być kapkę trudniejsza, ale w takim razie wystarczy poszukać w googlach.
