@@ -20,7 +20,7 @@ layout: default
       {% endif %}
       <article class="post-item">
         
-	<div class="article-title"><span class="post-meta date-label">{{ post.date | date: "%d-%m" }}</span> <small class="console-green">[{{ site.github_username }}@{{ site.title }}]$ brain.py >> </small><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+	<div class="article-title"><span class="post-meta date-label">{{ post.date | date: "%d-%m" }}</span> <small class="console-green">$ brain.py >> </small><a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
       </article>
     {% endfor %}
 </div>
