@@ -1,9 +1,7 @@
 <!doctype html>
-
 <html lang="pl">
 <head>
   <meta charset="utf-8">
-
   <title>Układ 2.0</title>
   <meta name="description" content="TODO">
   <meta name="author" content="Olaf Górski">
@@ -12,6 +10,15 @@
   <script src="js/math.min.js"></script>
 </head>
 <body onload="test()">
+<input type="checkbox" id="nav" class="navCheckBox"/>
+<label for="nav" class="sidenav">
+  <a href="#">About</a>
+   <form>
+            y=<input autocomplete="off" type="text" class="units" id="test" value="x"/>
+            <button type="button" onclick="draw(document.getElementById('test').value);" >ZMIEŃ ILOŚĆ JEDNOSTEK</button>
+        </form>
+
+</label>
     <canvas id="myCanvas">
 Your browser does not support the HTML5 canvas tag.</canvas>
   <script src="js/scripts.js"></script>
