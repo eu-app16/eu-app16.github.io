@@ -80,7 +80,7 @@ function draw(equation, p=0, q=0){
     x = i*lengthOfUnit;
     scope.x = i;
     y = -math.eval(equation, scope)*lengthOfUnit;
-    if(math.abs(lastY-y)>lengthOfUnit-1 || math.abs(y)>y0) ctx.moveTo(x,y)
+    if(math.abs(lastY-y)>lengthOfUnit-1) ctx.moveTo(x,y)
     else ctx.lineTo(x+(p*lengthOfUnit),y-(q*lengthOfUnit));
     lastY = y;
 
