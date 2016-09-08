@@ -1,8 +1,8 @@
-var lengthOfUnit = 30;
+var lengthOfUnit = math.round(window.innerHeight/18);
 var height = window.innerHeight-(window.innerHeight%lengthOfUnit);
 var width = window.innerWidth-20-(window.innerWidth%lengthOfUnit);
 
-var precision = 0.00300003;
+var precision = 0.0030000003;
 var prBtn = document.getElementById('prBtn'), prBtn2 = document.getElementById('prBtn2');
 var prBtn3 = document.getElementById('prBtn3'), prBtn4 = document.getElementById('prBtn4');
 
@@ -80,7 +80,7 @@ function draw(equation, p=0, q=0){
     x = i*lengthOfUnit;
     scope.x = i;
     y = -math.eval(equation, scope)*lengthOfUnit;
-    if(math.abs(lastY-y)>lengthOfUnit-1) ctx.moveTo(x,y)
+    if(math.abs(lastY-y)>lengthOfUnit-1 || math.abs(y)>y0) ctx.moveTo(x,y)
     else ctx.lineTo(x+(p*lengthOfUnit),y-(q*lengthOfUnit));
     lastY = y;
 
@@ -96,14 +96,14 @@ function ts(){
 }
 
 prBtn.onclick = function() {
-  precision = 0.015000003;
+  precision = 0.01500000003;
 };
 prBtn2.onclick = function() {
-  precision = 0.010000003;
+  precision = 0.00300000003;
 };
 prBtn3.onclick = function() {
-  precision = 0.005000003;
+  precision = 0.00200000003;
 };
 prBtn4.onclick = function() {
-  precision = 0.001000003;
+  precision = 0.00100000003;
 };
