@@ -1,9 +1,20 @@
-var lengthOfUnit = 50;
+var lengthOfUnit = 30;
 var height = window.innerHeight-(window.innerHeight%lengthOfUnit);
 var width = window.innerWidth-20-(window.innerWidth%lengthOfUnit);
-  
+
+var precision = 0.00300003;
+var prBtn = document.getElementById('prBtn'), prBtn2 = document.getElementById('prBtn2');
+var prBtn3 = document.getElementById('prBtn3'), prBtn4 = document.getElementById('prBtn4');
+
+var lastEquation;
+var colors = ['darkblue', 'darkgoldenrod', 'darkgreen', 'darkmagenta',
+              'darkolivegreen', 'darkorange', 'darkred', 'darkViolet',
+              'deeppink', 'dodgerblue', 'fuchsia', 'gold', 'lawngreen',
+              'lime', 'maroon', 'yellow', 'olive', 'purple'];
+var plotNumber = 0;
+
 var x0 = width/2; 
-var y0 = height/2;  
+var y0 = height/2;
 
 var c=document.getElementById("myCanvas");
 c.width = width;
@@ -14,7 +25,7 @@ var numberOfUnitsOnXAxis = x0/lengthOfUnit;
 var numberOfUnitsOnYAxis = y0/lengthOfUnit;
 ctx.translate(x0+0.5,y0+0.5);
 
-function test(){
+function makePlane(){
   ctx.strokeStyle = "#b3b3b3";
   ctx.beginPath();
   ctx.font = "15px Arial";
@@ -57,21 +68,42 @@ function test(){
   ctx.closePath();
 }
 
-function draw(equation){
-  var x,y;
+function draw(equation, p=0, q=0){
+  var color = colors[plotNumber];
+  plotNumber++;
+  lastEquation = equation;
+  var x,y, lastY;
   var scope = { x: 0 }
   ctx.beginPath();
-  for(i=-numberOfUnitsOnXAxis; i<numberOfUnitsOnXAxis; i+=0.02000003){
-    x = i*50;
-    //y = (-1/i)*50;
+  ctx.strokeStyle = color;
+  for(i=-numberOfUnitsOnXAxis; i<numberOfUnitsOnXAxis; i+=precision){
+    x = i*lengthOfUnit;
     scope.x = i;
-    y = -math.eval(equation, scope)*50;
-    ctx.lineTo(x, y);
-    //ctx.fillRect(i*50, (-1/i)*50, 1, 1);
+    y = -math.eval(equation, scope)*lengthOfUnit;
+    if(math.abs(lastY-y)>lengthOfUnit-1) ctx.moveTo(x,y)
+    else ctx.lineTo(x+(p*lengthOfUnit),y-(q*lengthOfUnit));
+    lastY = y;
+
   }
   ctx.stroke();
   ctx.closePath();
 }
 
-/* Set the width of the side navigation to 250px */
+function ts(){
+  var p = document.getElementById('vectorP').value;
+  var q = document.getElementById('vectorQ').value;
+  draw(lastEquation, p, q);
+}
 
+prBtn.onclick = function() {
+  precision = 0.015000003;
+};
+prBtn2.onclick = function() {
+  precision = 0.010000003;
+};
+prBtn3.onclick = function() {
+  precision = 0.005000003;
+};
+prBtn4.onclick = function() {
+  precision = 0.001000003;
+};
