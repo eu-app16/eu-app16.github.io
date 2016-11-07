@@ -2,7 +2,7 @@ var lengthOfUnit = math.round(window.innerHeight/4);
 var height = window.innerHeight-(window.innerHeight%lengthOfUnit);
 var width = window.innerWidth-20-(window.innerWidth%lengthOfUnit);
 
-var precision = 0.00100000003;
+var precision = 0.00200000003;
 var prBtn = document.getElementById('prBtn'), prBtn2 = document.getElementById('prBtn2');
 var prBtn3 = document.getElementById('prBtn3'), prBtn4 = document.getElementById('prBtn4');
 
