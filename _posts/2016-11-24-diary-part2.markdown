@@ -1,16 +1,33 @@
 ---
 layout: post
-title:  "Diary part 2"
+title:  "Diary: students' thoughts"
 date:   2016-11-24 12:34:20
 categories: entry
 author: Olaf Górski
-image: https://eu-app16.github.io/img/news/beginning/welcome_card.jpg
+image: https://eu-app16.github.io/img/news/diary-2/welcome_card.jpg
 ---
 
-Needs doing and stuff bla bla bla bla bla
+#Monday, 21.11.2016:
+After we arrived in Eisenburg, the german headmaster gave us a welcoming speech.
+Then we got split in to 5 groups.  In our group there are people from the UK,the Czech republic, Poland and Germany. The German students took us into the city. After that we had a lunch in School. The lunch was pretty good. For the rest of the day we were relaxed at our rooms. In the evening we went to play some bowling, it was a very interesting experience.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+#Tuesday, 22.11.2016
 
+The second day of our meeting we had to wake up earlier. When everyone was ready, we went to the University Worms by Bus. Then we had a IT workshop about android programming in Android studio. After few hours of hard work, we had a break for lunch. After lunch we had the second part of the workshops where we continued to code. At the end of this trip, we went to the city centre, where we had a little free time. When we got back to our hotel we were all tired and we all went to sleep early.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+#Wednesday, 23.11.2016
+
+We arrived at Donnersbergkreis school and the lesson started.The UK teacher explained to us what the project  was. We then got divided in groups and then we discussed some ideas in our groups.Then, we went to the computer labs to start the project. Each member of the group got their role such as coordinator, designer, programmer and documentor. All the students had lunch in the canteen and had leisure time. After leisure time, we restarted working on developing of the project in the computer lab. After we finished, we came back to hotel for a rest. We met in front of the school with all the students to go to the train station. There, we took the train to go to Grünstadt.We arrived in ten minutes, and we went to play pool and have dinner.Afterwards, we came back to hotel by bus and all of the students went to sleep because they were very tired.
+Thursday,24.11.2016:
+Our day started at  8.30  in the computer room.
+We worked on our projects and went for lunch at „Jahnstube“ after that.
+We first had the idea for the app, but the projects will be ended in the other countrys .
+We liked working with the students from other countrys and loved the harmony  in our group.
+
+#Friday, 25.11.16
+
+Today we had to present what our groups have done in the last few days.
+After the presentation we drove to Mainz and enjoyed the sightseeing .
+It's a big city with lots of interesting sights, remarkable  landmarks, fantastic food and had a lot of fun there. The trip was very tiring so we all went to sleep early.
+
 
