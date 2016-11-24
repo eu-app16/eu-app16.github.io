@@ -25,7 +25,7 @@ pagination_type: default  # values [ ops, default ]
 #    link: www.myawesomelink.com
 
 disqus: true
-disqus_shortname: 'gdgmanagua'
+disqus_shortname: 'nope'
 
 # Build settings
 markdown: kramdown
