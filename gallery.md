@@ -31,11 +31,41 @@ images:
     title: 12
   - image_path: /img/gallery/eisenberg/13.jpg
     title: 13
+  - image_path: /img/gallery/eisenberg/14.jpg
+    title: 14
+  - image_path: /img/gallery/eisenberg/15.jpg
+    title: 15
+  - image_path: /img/gallery/eisenberg/16.jpg
+    title: 16
+  - image_path: /img/gallery/eisenberg/17.jpg
+    title: 17
+  - image_path: /img/gallery/eisenberg/18.jpg
+    title: 18
+  - image_path: /img/gallery/eisenberg/19.jpg
+    title: 19
+  - image_path: /img/gallery/eisenberg/20.jpg
+    title: 20
+  - image_path: /img/gallery/eisenberg/21.jpg
+    title: 21
+  - image_path: /img/gallery/eisenberg/22.jpg
+    title: 22
+  - image_path: /img/gallery/eisenberg/23.jpg
+    title: 23
+  - image_path: /img/gallery/eisenberg/24.jpg
+    title: 24
+  - image_path: /img/gallery/eisenberg/25.jpg
+    title: 25
+  - image_path: /img/gallery/eisenberg/26.jpg
+    title: 26
+  - image_path: /img/gallery/eisenberg/27.jpg
+    title: 27
+
 ---
 ###### Our gallery
 
-<ul class="photo-gallery">
+<ul class="photo-gallery" style="list-style: none;">
   {% for image in page.images %}
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+<br/>
   {% endfor %}
 </ul>
