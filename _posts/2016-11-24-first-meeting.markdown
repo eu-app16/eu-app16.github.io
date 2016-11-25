@@ -7,11 +7,12 @@ author: Olaf Górski
 image: https://eu-app16.github.io/img/news/beginning/welcome_card.jpg
 ---
 
-Needs doing and stuff bla bla bla bla bla
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+This week was the week in which first official meeting in this project took place. Students from all across the EU came to Eisenberg, Germany, to learn, work and have fun together.
 
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+It all began on Sunday, when all the teams from: Poland, Italy, Czech Republic and Englang have joined their collegues from Germany.
 
-This week first 
+After a quick rest day, they began their week that'll be full of work and also rich in opportunities to learn both from each other and from some excellent experts.
+
+Let's hope, that they'll use it fully and gain a lot from this meeting setting a fitting example for teams from other meetings.
 
