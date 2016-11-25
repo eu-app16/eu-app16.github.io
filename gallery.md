@@ -2,8 +2,6 @@
 layout: page
 title: Gallery
 permalink: /gallery/
----
-layout: default
 images:
   - image_path: /img/gallery/eisenberg/1.jpg
     title: 1
@@ -33,8 +31,6 @@ images:
     title: 12
   - image_path: /img/gallery/eisenberg/13.jpg
     title: 13
-
----
 ---
 ###### Our gallery
 
