@@ -3,61 +3,61 @@ layout: page
 title: Gallery
 permalink: /gallery/
 images:
-  - image_path: /img/gallery/eisenberg/1.jpg
+  - image_path: /img/gallery/eisenberg/1.JPG
     title: 1
-  - image_path: /img/gallery/eisenberg/2.jpg
+  - image_path: /img/gallery/eisenberg/2.JPG
     title: 2
-  - image_path: /img/gallery/eisenberg/3.jpg
+  - image_path: /img/gallery/eisenberg/3.JPG
     title: 3
-  - image_path: /img/gallery/eisenberg/4.jpg
+  - image_path: /img/gallery/eisenberg/4.JPG
     title: 4
-  - image_path: /img/gallery/eisenberg/5.jpg
+  - image_path: /img/gallery/eisenberg/5.JPG
     title: 5
-  - image_path: /img/gallery/eisenberg/14.jpg
+  - image_path: /img/gallery/eisenberg/14.JPG
     title: 14
-  - image_path: /img/gallery/eisenberg/6.jpg
+  - image_path: /img/gallery/eisenberg/6.JPG
     title: 6
-  - image_path: /img/gallery/eisenberg/7.jpg
+  - image_path: /img/gallery/eisenberg/7.JPG
     title: 7
-  - image_path: /img/gallery/eisenberg/8.jpg
+  - image_path: /img/gallery/eisenberg/8.JPG
     title: 8
-  - image_path: /img/gallery/eisenberg/9.jpg
+  - image_path: /img/gallery/eisenberg/9.JPG
     title: 9
-  - image_path: /img/gallery/eisenberg/10.jpg
+  - image_path: /img/gallery/eisenberg/10.JPG
     title: 10
-  - image_path: /img/gallery/eisenberg/11.jpg
+  - image_path: /img/gallery/eisenberg/11.JPG
     title: 11
-  - image_path: /img/gallery/eisenberg/12.jpg
+  - image_path: /img/gallery/eisenberg/12.JPG
     title: 12
-  - image_path: /img/gallery/eisenberg/13.jpg
+  - image_path: /img/gallery/eisenberg/13.JPG
     title: 13
-  - image_path: /img/gallery/eisenberg/14.jpg
+  - image_path: /img/gallery/eisenberg/14.JPG
     title: 14
-  - image_path: /img/gallery/eisenberg/15.jpg
+  - image_path: /img/gallery/eisenberg/15.JPG
     title: 15
-  - image_path: /img/gallery/eisenberg/16.jpg
+  - image_path: /img/gallery/eisenberg/16.JPG
     title: 16
-  - image_path: /img/gallery/eisenberg/17.jpg
+  - image_path: /img/gallery/eisenberg/17.JPG
     title: 17
-  - image_path: /img/gallery/eisenberg/18.jpg
+  - image_path: /img/gallery/eisenberg/18.JPG
     title: 18
-  - image_path: /img/gallery/eisenberg/19.jpg
+  - image_path: /img/gallery/eisenberg/19.JPG
     title: 19
-  - image_path: /img/gallery/eisenberg/20.jpg
+  - image_path: /img/gallery/eisenberg/20.JPG
     title: 20
-  - image_path: /img/gallery/eisenberg/21.jpg
+  - image_path: /img/gallery/eisenberg/21.JPG
     title: 21
-  - image_path: /img/gallery/eisenberg/22.jpg
+  - image_path: /img/gallery/eisenberg/22.JPG
     title: 22
-  - image_path: /img/gallery/eisenberg/23.jpg
+  - image_path: /img/gallery/eisenberg/23.JPG
     title: 23
-  - image_path: /img/gallery/eisenberg/24.jpg
+  - image_path: /img/gallery/eisenberg/24.JPG
     title: 24
-  - image_path: /img/gallery/eisenberg/25.jpg
+  - image_path: /img/gallery/eisenberg/25.JPG
     title: 25
-  - image_path: /img/gallery/eisenberg/26.jpg
+  - image_path: /img/gallery/eisenberg/26.JPG
     title: 26
-  - image_path: /img/gallery/eisenberg/27.jpg
+  - image_path: /img/gallery/eisenberg/27.JPG
     title: 27
 
 ---
