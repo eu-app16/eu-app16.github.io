@@ -16,7 +16,7 @@ pagination_type: default  # values [ ops, default ]
 more_vert:
   option1:
     name: Questionarie
-    link: http://www.purkiada.sspbrno.cz/eu-app/
+    link: http://purkiada.sspbrno.cz/eu-app/
 #  option2:
 #    name: Cool Option 2
 #    link: www.myawesomelink.com
