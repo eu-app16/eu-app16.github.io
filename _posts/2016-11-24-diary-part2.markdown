@@ -3,7 +3,7 @@ layout: post
 title:  "Diary: students' thoughts"
 date:   2016-11-24 12:34:20
 categories: entry
-author: Olaf Górski
+author: Erasmus Team
 image: https://eu-app16.github.io/img/news/diary-2/welcome_card.jpg
 ---
 
