@@ -7,26 +7,6 @@ description: > # this means to ignore newlines until "baseurl:"
   which is realized by different EU partners. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://eu-app16.github.io" # the base hostname & protocol for your site
-
-# Layout settings
-header_type: default  # values [ drawer, default ]
-post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
-
-more_vert:
-  option1:
-    name: Questionarie
-    link: http://purkiada.sspbrno.cz/eu-app16/
-#  option2:
-#    name: Cool Option 2
-#    link: www.myawesomelink.com
-#  option3:
-#    name: Cool Option 3
-#    link: www.myawesomelink.com
-
-disqus: true
-disqus_shortname: 'nope'
-
 # Build settings
 markdown: kramdown
 gems: jekyll-sitemap
