@@ -138,10 +138,16 @@ images:
 ---
 
 
-	<center>
-<div class="fotorama">
+<center>
+<div class="galleria">
   {% for image in page.images %}
     <img src="{{ image.image_path }}"/>
   {% endfor %}
 </div>
 </center> 
+<script>
+	(function() { 
+            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        }());
+</script>
