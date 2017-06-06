@@ -140,6 +140,7 @@ images:
 
 <center>
 <div class="galleria">
+  {{ site.url }}
   {% for image in page.images %}
     <img src="{{ site.url }}{{ image.image_path }}"/>
   {% endfor %}
