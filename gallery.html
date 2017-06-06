@@ -63,12 +63,9 @@ images:
 
 
 	<center>
-<ul class="photo-gallery" style="list-style: none;">
+<div class="fotorama">
   {% for image in page.images %}
-
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" style="width:800px;"/></li>
-<br/>
-
+    <img src="{{ image.image_path }}" alt="{{ image.title}}" style="width: 100%;"/>
   {% endfor %}
-</ul>
+</div>
 </center> 
