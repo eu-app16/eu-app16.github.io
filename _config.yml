@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the homepage of the Erasmus Plus Eu-App16 project,
   which is realized by different EU partners. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eu-app16.github.io" # the base hostname & protocol for your site
+url: "https://eu-app16.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 gems: jekyll-sitemap
