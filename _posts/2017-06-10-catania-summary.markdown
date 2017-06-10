@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meeting in Catania: summary"
-date:   2017-11-24 12:35:11
+date:   2017-06-10 12:35:11
 categories: entry
 author: Olaf Górski
 image: https://eu-app16.github.io/img/gallery/catania/4.jpg
