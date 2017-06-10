@@ -1,32 +1,64 @@
 ---
 layout: post
-title:  "Diary: students' thoughts from catania"
-date:   2017-06-10 12:34:20
+title:  "Meeting in Catania: summary"
+date:   2017-11-24 12:35:11
 categories: entry
-author: Erasmus Team
-image: https://eu-app16.github.io/img/gallery/catania/24.jpg
+author: Olaf Górski
+image: https://eu-app16.github.io/img/gallery/catania/4.jpg
 ---
-These here, are our 4 of our student's thoughts after our wonderful visit in Catania.
+
+Our project recently had a meeting that went on from 19th to 25th of March 2017. 
+
+Students and their teachers from 5 participating schools from 5 different countries, which are:
+
+Berufsbildende Schule Donnersbergkreis from Germany,
+I.T.I.S. Galileo Ferraris from Sicily – our hosts this time,
+Střední průmyslová škola Brno from Czech Republic,
+Zespoł Szkół Nr 1 im. Legionów Polskich from Poland,
+Bluecoat Academy from the UK,
+
+meet together in Catania, Sicily, to learn, develop and have fun together.
+What they did and what happened? Let the students themselves speak – here is a text prepared by 4 our students, it’s their diary of sorts, that can be found here:
+
+[Diary: students' thoughts from catania](https://eu-app16.github.io/entry/2017/06/10/diary-catania.html)
 
 
-Sunday:
-Sunday was the day of our arrival. We were greeted on the airport and then transported to our hotel that was located on the coast. We had a view on the sea or Etna volcano from our windows. We were given a bit of free time to rest after very long and tiring journey, and then, in the evening we had big, official dinner.
+Their week was full of work and learning, but also some fun and sightseeing. I’m quite sure that every single one of them will remember this experience for the rest of their life. They got to meet new people, learn a lot of interesting things, do some actual work and see what’s like to run a team in a company let’s say.
 
-Monday:
-Monday was the first Day when we went to school. We got divided into groups and got to meet each other. We had to continue working on applications started in Eisenberg. We have worked for almost whole day, but fortunately then we went bowling to integrate ourselves a bit.
+This project is a wonderful opportunity for all of our students, that’s why we always encourage them to take part in it and also why we thank the European Comission for founding it.
 
-Tuesday:
-Tuesday was the second day of our meeting in Catania. We continued to work on our application, but after that we went on a trip to Mount Etna, volcano placed next to Catania. We have seen a beautiful landscape. After we went for a diner to town located at the foot of the mountain. We ate there some traditional dishes like pizza and everything was delicious.
+Students worked on the apps that they started during previous meeting in Eisenberg and they came with some great results during their stay in Catania.
 
-Wednesday:
-On Wednesday we were still working on applications. After that we've had a meeting with STM workers, they've tried to explain to us, as simple as they could, a very complicated micro controller called STM32 Nucleo. It's very advanced hardware that is professionally used in many commercial and high importance projects. It's a bit similar to Arduino, but much more advanced. They've also told us how to make use of stepper motor and how to program on STM platform. In the evening we went for a supper to the center of the city. It was gorgeous - the town of Catania is certainly awesome and mesmerizing.
+Other than that, they also learned couple of things. Let’s start with Git. Git is a VCS – Version Control System, that right now is used in every major IT company around the world. Knowing it is’ a must for people working in programming-related fields.
 
-Thursday:
-On Thursday we did presentations on the progress of our work. Each group with their leader had to show the purpose of the app made by them and also what they've already done. At the end there were some people who shared with us some new ideas about useful ways of using android and Arduino apps.
+Students also extensively worked on their Android Programming skills – with the help of Ms Laura who is a teacher from Hochschule Worms University. She helped our students when they encountered problems with either Android or Java.
 
-Friday:
-On the last day of our project we did some brain storming. Our task was to come up with some ideas for our next apps. The most of those ideas were about Android Studio working with Arduino - some of them were really interesting and able to create. After that we went to beautiful, old Italian city Taormina. We were visiting the whole place, so we had an opportunity to take some amazing photos. That was really cool experience and I am sure everyone enjoyed this trip. In the end we arrived at school, where Italians and their parents prepared a party for us. We could try local food and listen to live band music. There was also a DJ, who provided some good, dancing music. Finally, we had to leave, so we said goodbye to our friends and left to the hotel.
+There were also held Arduino workshops –  Mr Paweł Boryczka that led the Polish group, with the help of his students, taught us all a bit about Arduino and it’s practical uses when combined with sensors and/or Android devices. It was really interesting for our students – almost all of them got really interested in this amazing piece of technology. After the workshop everyone got a bit of time to actually work with Arduino and maybe create something on their own.
 
-Saturday:
-It was the day when most groups left. It was very sad day indeed, as we have grown to like each other during the week, so we didn’t want to separate from our new friends and the lovely city of Catania. Too bad we had to do it. 
+Other than Arduino workshops, we also had workshops held by our partner – STMicroelectronics. 
+Professionals from that company came to us and taught us about their company’s products – mainly devices from STM32 Nucleo series. It’s a bit like Arduino, but way more professional and advanced. Thanks to active parcitipitation our students could get some free micro controller boards from them. Our students were amazed by what you can do with this hardware and with how much our guests knew. It was very inspiring event.
 
+Sightseeing was also quite an enjoyable thing for our students. They could see all of the most important historic sites of Catania and it’s surroundings including Etna or Taormina. It was absolutely mesmerizing. It, and many other activities, helped with integration of all the students. It was very enriching and interesting to get to know new and quite amazing culture of Sicily and it’s residents. We all learned something new during that week.
+
+Our hosting school also did us a surprise and prepared w graphic workshop for us. Students could learn a bit about designing graphics and especially icons to their apps. Important topic that was talked about there was copyright issues and how to avoid them. Very useful and practical stuff that our students could use right away when developing their application.
+
+Unfortunately, the week had to end. We had to go home in order to spread this newfound knowledge with students in our countries and also work on the apps and project. So we did.
+
+Concluding, our students during this week have:
+-extended their knowledge about other cultures and multiculturalism;
+-broke their language barriers, learned to use English in practical situations;
+-learned to work in groups more effectively – teamwork is what matters here;
+-further developed apps started in Eisenberg basing on their predecessors documentation;
+-planned what should be done on next meetings;
+-learned about GIT Version Control System;
+-deepened their knowledge about Android Programming and Java;
+-learned about copyright and issues related to them;
+-learned how to design icons/graphics for their applications;
+-had the chance to play around and learn about Arduino platform and do some projects on it, and they thoroughly enjoyed it;
+-got to know the absolute basics of a very advanced platform STM32 Nucleo and ARM in general;
+-saw some really amazing landscape and architecture;
+-created some new, lasting friendships;
+
+For what’s worth, this project is really amazing opportunity that contributes to all of our student’s lives and their future carriers paths.
+
+If you want to see what it was like - check out our [gallery from Catania!](https://eu-app16.github.io/gallery/catania/)
