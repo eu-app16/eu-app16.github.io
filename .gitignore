@@ -6,3 +6,7 @@ img/xcf
 *~
 videos
 
+.idea/
+.idea/*
+.idea
+.idea/*.*
