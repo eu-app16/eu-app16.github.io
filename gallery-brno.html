@@ -1,0 +1,91 @@
+---
+layout: default
+title: Gallery brno
+permalink: /gallery/brno/
+images:
+  - image_path: /img/gallery/brno/01.jpg
+    title: 1
+  - image_path: /img/gallery/brno/02.jpg
+    title: 2
+  - image_path: /img/gallery/brno/03.jpg
+    title: 3
+  - image_path: /img/gallery/brno/04.jpg
+    title: 4
+  - image_path: /img/gallery/brno/05.jpg
+    title: 5
+  - image_path: /img/gallery/brno/06.jpg
+    title: 6
+  - image_path: /img/gallery/brno/07.jpg
+    title: 7
+  - image_path: /img/gallery/brno/08.jpg
+    title: 8
+  - image_path: /img/gallery/brno/09.jpg
+    title: 9
+  - image_path: /img/gallery/brno/10.jpg
+    title: 10
+  - image_path: /img/gallery/brno/11.jpg
+    title: 11
+  - image_path: /img/gallery/brno/12.jpg
+    title: 12
+  - image_path: /img/gallery/brno/13.jpg
+    title: 13
+  - image_path: /img/gallery/brno/14.jpg
+    title: 14
+  - image_path: /img/gallery/brno/15.jpg
+    title: 15
+  - image_path: /img/gallery/brno/16.jpg
+    title: 16
+  - image_path: /img/gallery/brno/17.jpg
+    title: 17
+  - image_path: /img/gallery/brno/18.jpg
+    title: 18
+  - image_path: /img/gallery/brno/19.jpg
+    title: 19
+  - image_path: /img/gallery/brno/20.jpg
+    title: 20
+  - image_path: /img/gallery/brno/21.jpg
+    title: 21
+  - image_path: /img/gallery/brno/22.jpg
+    title: 22
+  - image_path: /img/gallery/brno/23.jpg
+    title: 23
+  - image_path: /img/gallery/brno/24.jpg
+    title: 24
+  - image_path: /img/gallery/brno/25.jpg
+    title: 25
+  - image_path: /img/gallery/brno/26.jpg
+    title: 26
+  - image_path: /img/gallery/brno/27.jpg
+    title: 27
+  - image_path: /img/gallery/brno/28.jpg
+    title: 28
+  - image_path: /img/gallery/brno/29.jpg
+    title: 29
+  - image_path: /img/gallery/brno/30.jpg
+    title: 30
+  - image_path: /img/gallery/brno/31.jpg
+    title: 31
+  - image_path: /img/gallery/brno/32.jpg
+    title: 32
+  - image_path: /img/gallery/brno/33.jpg
+    title: 33
+  - image_path: /img/gallery/brno/34.jpg
+    title: 34
+  - image_path: /img/gallery/brno/35.jpg
+    title: 35
+---
+
+
+<center>
+<div class="galleria">
+  {% for image in page.images %}
+    <img src="{{ site.url }}{{ image.image_path }}"/>
+  {% endfor %}
+</div>
+</center> 
+<script>
+	(function() { 
+            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        }());
+</script>
